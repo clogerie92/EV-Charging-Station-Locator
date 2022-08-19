@@ -1,0 +1,46 @@
+.about-plugspot, .about-here-api {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-article {
+    width: 500px;
+}
+
+.ev-charger-figure-1{
+    background-color: rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+}
+
+.ev-charger-figure-1 img {
+    height: 375px;
+    /* border: 10px double black; */
+    border-radius: 20px;
+}
+
+.here-api-figure {
+    background-color: rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 275px;
+    width: 450px;
+}
+
+.here-api-figure img {
+    /* border: 10px double black; */
+    border-radius: 20px;    
+    height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-plugspot, .about-here-api {
+        flex-direction: column;
+    }
+}
+
