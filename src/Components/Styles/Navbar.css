@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to left,  #39FF14, #00FF00);
+    background: linear-gradient(to bottom, #00FF00, #00ffff);
 }
 
 a {
