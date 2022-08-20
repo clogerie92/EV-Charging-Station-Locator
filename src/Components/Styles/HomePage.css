@@ -1,3 +1,8 @@
+.home-container {
+background: linear-gradient(to bottom, black, silver);
+color: antiquewhite;
+}
+
 .about-plugspot, .about-here-api {
     display: flex;
     justify-content: center;
@@ -9,7 +14,7 @@
 }
 
 .ev-charger-figure-1{
-    background-color: rgba(0, 0, 0, 0.08);
+    /* background-color: rgba(0, 0, 0, 0.08); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +29,7 @@
 }
 
 .here-api-figure {
-    background-color: rgba(0, 0, 0, 0.08);
+    /* background-color: rgba(0, 0, 0, 0.08); */
     display: flex;
     justify-content: center;
     align-items: center;
