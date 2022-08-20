@@ -5,6 +5,7 @@ import LandingPage from "./Components/Pages/LandingPage";
 import HomePage from './Components/Pages/HomePage';
 import Signup from './Components/Pages/Signup';
 import Signin from './Components/Pages/Signin';
+import Dashboard from './Components/Pages/Dashboard';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HomePage />
       <Signup />
       <Signin />
+      <Dashboard />
       <Footer />
     </>
   );
