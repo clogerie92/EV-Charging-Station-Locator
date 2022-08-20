@@ -9,7 +9,7 @@ const Signin = () => {
                 <input placeholder="Username" type="text" />
                 <input placeholder="Email" type="text" />
                 <input placeholder="Password" type="text" />
-                <button type="submit">Signin</button>
+                <button id="signin-btn" type="submit">Signin</button>
                 <div className="guest-portal">
                     <p>Don't have an account? Continue as a guest here...</p>
                     <button id="continue-btn" type="submit">Guest</button>
