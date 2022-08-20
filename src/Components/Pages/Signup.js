@@ -11,8 +11,14 @@ const Signup = () => {
                 <input placeholder="Password" type="text" />
                 <button type="submit">Signup</button>
                 <div className="signin-portal">
-                    <p>Already have an account? Signin here...</p>
-                    <button type="submit">Signin</button>
+                    <div className="signin-option">
+                        <p>Already have an account?</p>
+                        <button type="submit">Signin</button>
+                    </div>
+                    <div className="guest-option">
+                        <p>Or continue as guest</p>
+                        <button type="submit">Guest</button>
+                    </div>
                 </div>
             </div>
         </div>

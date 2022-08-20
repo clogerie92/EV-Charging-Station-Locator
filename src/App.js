@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <LandingPage />
       <HomePage />
-      <Signin />
       <Signup />
+      <Signin />
       <Footer />
     </>
   );

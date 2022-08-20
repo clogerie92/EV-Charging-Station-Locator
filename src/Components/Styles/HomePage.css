@@ -14,7 +14,6 @@ color: antiquewhite;
 }
 
 .ev-charger-figure-1{
-    /* background-color: rgba(0, 0, 0, 0.08); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,12 +23,10 @@ color: antiquewhite;
 
 .ev-charger-figure-1 img {
     height: 375px;
-    /* border: 10px double black; */
     border-radius: 20px;
 }
 
 .here-api-figure {
-    /* background-color: rgba(0, 0, 0, 0.08); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +35,6 @@ color: antiquewhite;
 }
 
 .here-api-figure img {
-    /* border: 10px double black; */
     border-radius: 20px;    
     height: 250px;
 }
