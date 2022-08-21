@@ -1,3 +1,10 @@
+header {
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: antiquewhite;
+}
+
 .dashboard-container {
     background: url("https://scitechdaily.com/images/Fast-Battery-Charging-Technology-Concept.gif");
     background-size: cover;
@@ -18,7 +25,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: center; */
+    align-items: center;
+    background: rgb(255, 255, 255, 0.1);
 }
 
 input, .btn-container, .history-container {
@@ -28,13 +36,13 @@ input, .btn-container, .history-container {
 .history-container, .location-container {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     gap: 10px;
 }
 
 .search-container, .location-container {
-    /* background-color: rgba(255, 255, 255, 0.05); */
+    background-color: rgba(255, 255, 255, 0.1);
     margin: 100px;
     width: 300px;
     height: auto;
