@@ -26,7 +26,20 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: rgb(255, 255, 255, 0.1);
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 input, .btn-container, .history-container {
@@ -36,7 +49,6 @@ input, .btn-container, .history-container {
 .history-container, .location-container {
     display: flex;
     justify-content: center;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -48,8 +60,8 @@ input, .btn-container, .history-container {
     height: auto;
 }
 
-.location-1, .location-2, .location-3 {
-    /* background-color: #ffffff; */
-    /* height: 50px; */
-    display: inline;
+@media screen and (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
 }

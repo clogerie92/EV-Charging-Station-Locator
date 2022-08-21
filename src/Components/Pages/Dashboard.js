@@ -20,9 +20,10 @@ const Dashboard = () => {
                 </aside>   
                 <main>
                     <div className="location-container">
-                        {/* dynamically render chargin station location cards */}
                         <h2>Locations</h2>
-                        {/* <input placeholder="test" type="text" /> */}
+                        <div className="locations">
+                             {/* dynamically render chargin station location cards */}
+                        </div>
                     </div>
                 </main>
             </div>
