@@ -9,7 +9,7 @@ const Signup = () => {
                 <input placeholder="Username" type="text" />
                 <input placeholder="Email" type="text" />
                 <input placeholder="Password" type="text" />
-                <button type="submit">Signup</button>
+                <button id="signup-btn" type="submit">Signup</button>
                 <div className="signin-portal">
                     <div className="signin-option">
                         <p>Already have an account?</p>
