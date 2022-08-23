@@ -1,4 +1,5 @@
 import React from "react"
+import LocationCard from "../LocationCard";
 import "../Styles/Dashboard.css";
 
 const Dashboard = () => {
@@ -10,7 +11,7 @@ const Dashboard = () => {
                     <div className="search-container">
                         <input placeholder="Enter search here..." type="text" />
                         <div className="btn-container">
-                            <button>Search</button>
+                            <button onClick={LocationCard}>Search</button>
                             <button>Clear</button>
                         </div>
                         <div className="history-container">
@@ -23,6 +24,7 @@ const Dashboard = () => {
                         <h2>Locations</h2>
                         <div className="locations">
                              {/* dynamically render chargin station location cards */}
+                             <LocationCard />
                         </div>
                     </div>
                 </main>

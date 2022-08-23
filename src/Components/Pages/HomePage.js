@@ -10,7 +10,7 @@ const HomePage = () => {
                 </figure>
                 <article className="about-article">
                   <h2>What is PlugSpot?</h2>
-                  <p>PlugSpot is a web application built to help the community of electric car owners. Get started by continuing as a guest or create an account to find the a charging station near you!</p>
+                  <p>PlugSpot is a web application built to help the community of electric vehicle owners. Get started by continuing as a guest or creating an account to find a charging station near you!</p>
                 </article>
             </div>
             <div className="about-here-api">
