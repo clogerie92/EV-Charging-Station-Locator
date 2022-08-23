@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Signin.css";
+import { Link } from "react-router-dom";
 
 const Signin = () => {
     return (
@@ -11,8 +12,10 @@ const Signin = () => {
                 <input placeholder="Password" type="text" />
                 <button id="signin-btn" type="submit">Signin</button>
                 <div className="guest-portal">
-                    <p>Don't have an account? Continue as a guest here...</p>
-                    <button id="continue-btn" type="submit">Guest</button>
+                    <p>Don't have an account? Continue as a guest here...</p> 
+                    <Link to="/dashboard">
+                        <button id="continue-btn" type="submit">Guest</button>
+                    </Link>
                 </div>
             </div>
         </div>

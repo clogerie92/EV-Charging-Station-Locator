@@ -1,19 +1,20 @@
 import React from "react";
 import "./Styles/Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <nav>
             <div className="brand">
-                <a href="/">PlugSpot</a>
+                <Link to="/">PlugSpot</Link>
             </div>
             <div className="navbar-links">
                 <ul>
-                    <li><a href="/">Home-About</a></li>
-                    <li><a href="/">Signin</a></li>
-                    <li><a href="/">Signup</a></li>
-                    <li><a href="/">Dashboard</a></li>
-                    <li><a href="/">Contact-Landing</a></li>
+                    <li><Link to="/home">Home</Link></li>
+                    <li><Link to="/dashboard">Dashboard</Link></li>
+                    <li><Link to="/signin">Signin</Link></li>
+                    <li><Link to="/signup">Signup</Link></li>
+                    
                 </ul>
             </div>
         </nav>
