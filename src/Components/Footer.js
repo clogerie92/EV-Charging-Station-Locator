@@ -5,7 +5,7 @@ function Footer () {
         <footer className="footer-container">
             <ul className="footer-list">
                 <li>
-                    <p><a href="https://github.com/clogerie92" rel="noreferrer" target="_blank"><i className="fab fa-github"></i></a></p>
+                    <p><a href="https://github.com/clogerie92/EV-Charging-Station-Locator" rel="noreferrer" target="_blank"><i className="fab fa-github"></i></a></p>
                 </li>
                 <li>
                     <p><a href="https://www.linkedin.com/in/carl-logerie-a45397245/" rel="noreferrer" target="_blank"><i className="fab fa-linkedin-in"></i></a></p>
