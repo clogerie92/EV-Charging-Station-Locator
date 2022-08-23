@@ -1,5 +1,7 @@
 import React from "react";
 import "../Styles/Signup.css";
+import { Link } from "react-router-dom";
+
 
 const Signup = () => {
     return (
@@ -13,11 +15,11 @@ const Signup = () => {
                 <div className="signin-portal">
                     <div className="signin-option">
                         <p>Already have an account?</p>
-                        <button type="submit">Signin</button>
+                        <Link to="/signin"><button type="submit">Signin</button></Link>
                     </div>
                     <div className="guest-option">
                         <p>Or continue as guest</p>
-                        <button type="submit">Guest</button>
+                        <Link to="/dashboard"><button type="submit">Guest</button></Link>
                     </div>
                 </div>
             </div>
