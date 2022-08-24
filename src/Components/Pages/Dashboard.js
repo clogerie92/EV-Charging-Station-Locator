@@ -1,4 +1,5 @@
 import React from "react"
+import search from '../utils/API';
 import LocationCard from "../LocationCard";
 import "../Styles/Dashboard.css";
 

@@ -15,6 +15,7 @@ html, body {
 
 .bio-container {
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
     color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -26,6 +27,7 @@ html, body {
 
 .contact-container {
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     padding: 10px;

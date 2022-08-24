@@ -12,6 +12,7 @@
 
 .signup-form-container {
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     padding: 10px;
