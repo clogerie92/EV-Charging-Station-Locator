@@ -6,14 +6,12 @@ header {
 }
 
 .dashboard-container {
-    background: url("https://scitechdaily.com/images/Fast-Battery-Charging-Technology-Concept.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: black;
     color: antiquewhite;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 85vh;
+    height: 100vh;
 }
 
 .btn-container {

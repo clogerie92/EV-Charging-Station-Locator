@@ -26,7 +26,7 @@ color: antiquewhite;
     border-radius: 20px;
 }
 
-.here-api-figure {
+.open-charge-api-figure {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +34,9 @@ color: antiquewhite;
     width: 450px;
 }
 
-.here-api-figure img {
+.open-charge-api-figure  img {
     border-radius: 20px;    
-    height: 250px;
+    width: 500px;
 }
 
 @media screen and (max-width: 768px) {

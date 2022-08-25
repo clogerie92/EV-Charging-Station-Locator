@@ -10,16 +10,16 @@ const HomePage = () => {
                 </figure>
                 <article className="about-article">
                   <h2>What is PlugSpot?</h2>
-                  <p>PlugSpot is a web application built to help the community of electric vehicle owners. Get started by continuing as a guest or creating an account to find a charging station near you!</p>
+                  <p>PlugSpot is a web application built to help the community of electric vehicle owners. Get started by navigating the Dashboard and enter a city anywhere around the world!</p>
                 </article>
             </div>
             <div className="about-here-api">
                 <article className="about-article">
                   <h2>How does it work?</h2>
-                  <p>PlugSpot uses the EV Charging Station API powered by HERE Technologies. This is a RESTful API that provides lists of charging station locations. It also includes information on connector types, hours of operation, and dynamic data about connector availability at charging stations for electric vehicles.</p>
+                  <p>PlugSpot uses the Open Charge Map API. Users can simply type the name of city in the search field above the map and charging station locations will be pinned in and around that city.</p>
                 </article>
-                <figure className="here-api-figure">
-                  <img src="https://developer.here.com/images/herelogo.png" alt="here logo" />
+                <figure className="open-charge-api-figure">
+                  <img src="https://ecogears.in/wp-content/uploads/2022/01/open-charge-map-app-for-electric-car-drivers.jpg" alt="here logo" />
                 </figure>
             </div>
         </div>
