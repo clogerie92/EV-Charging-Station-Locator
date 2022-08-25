@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ev-charging-station-locator/static/css/main.b124e399.css",
+    "main.js": "/ev-charging-station-locator/static/js/main.cd726a22.js",
+    "index.html": "/ev-charging-station-locator/index.html",
+    "main.b124e399.css.map": "/ev-charging-station-locator/static/css/main.b124e399.css.map",
+    "main.cd726a22.js.map": "/ev-charging-station-locator/static/js/main.cd726a22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b124e399.css",
+    "static/js/main.cd726a22.js"
+  ]
+}
