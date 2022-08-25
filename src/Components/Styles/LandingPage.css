@@ -25,7 +25,7 @@ html, body {
     width: 35rem;
 }
 
-.contact-container {
+form {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 30px;
     display: flex;
