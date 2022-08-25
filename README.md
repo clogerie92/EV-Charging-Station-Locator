@@ -16,7 +16,7 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 ![Charging station locations are pinned on map.](./src/images/plugspot.png)
 <br>
-GitHub Pages - ()
+GitHub Pages - (https://clogerie92.github.io/EV-Charging-Station-Locator/)
 
 ## Installation 
 The user should clone the repository from GitHub and then install Node. The user should then run npm start to run the program.   
