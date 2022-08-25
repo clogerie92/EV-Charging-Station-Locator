@@ -14,7 +14,7 @@ PlugSpot is a web application built to help the community of electric vehicle ow
 
 The following image shows a mock-up of the generated HTML’s appearance and functionality:
 
-![Charging station locations are pinned on map.](./images/plugspot.png)
+![Charging station locations are pinned on map.](./src/images/plugspot.png)
 <br>
 GitHub Pages - ()
 
